@@ -72,6 +72,45 @@
     margin: 0;
   }
   
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+}
  
 .jumbotron {
     background-image:  url(../images/02-portfolio-3.jpg) ;
